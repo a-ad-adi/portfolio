@@ -13,7 +13,7 @@ export default function TechStack({ className, onMouseEnter, onMouseLeave }) {
     >
       <FontAwesomeIcon className="placeholder" icon={faCode} />
       <div className="container">
-      <div className="header"> Technology Stack </div>
+        <div className="header"> Technology Stack</div>
         <div className="info">
           <div className="company">
             <div> Avenue Code </div>
