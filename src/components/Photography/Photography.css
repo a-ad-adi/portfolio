@@ -1,0 +1,36 @@
+.photography {
+  width: 25%;
+  height: 100%;
+  background-color: #333;
+  transition: all 0.3s ease-in-out;
+  opacity: 1;  
+  color: white;
+}
+
+.photography.focused {
+  transform: scale(3, 2);
+  transform-origin: bottom right;
+  opacity: 1;  
+}
+.photography.shaded {
+}
+
+.photography .placeholder{
+  transition: all 0.35s ease-in-out;
+}
+.photography.focused .placeholder{
+  position: relative;
+  width: 25px!important;
+  height: 25px!important;
+  top: 1%;
+  left: 1%;
+}
+
+.photography .container{
+  transition: all 0.3s ease-in-out;  
+  transform: scale(0,0);
+}
+
+.photography.focused .container{
+  transform: scale(1,1);
+}
