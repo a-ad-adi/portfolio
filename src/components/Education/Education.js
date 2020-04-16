@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGraduationCap } from "@fortawesome/free-solid-svg-icons";
 
-import "./Education.css";
+import "./Education.scss";
 
 export default function Education({ className, onMouseEnter, onMouseLeave }) {
   return (

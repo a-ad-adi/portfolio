@@ -1,0 +1,18 @@
+.photography {
+  background-color: #333;
+  color:rgb(211, 207, 207);
+
+
+  .placeholder {
+    height: 110% !important;
+  }
+}
+
+.photography.focused {
+  transform: scale(2, 1.8);
+  transform-origin: bottom right;
+  .placeholder {
+    width: 25px !important;
+    height: 25px !important;
+  }
+}

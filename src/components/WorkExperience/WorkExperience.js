@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 
-import "./WorkExperience.css";
+import "./WorkExperience.scss";
 
 export default function WorkExperience({
   className,

@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFileInvoice } from "@fortawesome/free-solid-svg-icons";
 
-import "./Projects.css";
+import "./Projects.scss";
 
 export default function Projects({ className, onMouseEnter, onMouseLeave }) {
   return (

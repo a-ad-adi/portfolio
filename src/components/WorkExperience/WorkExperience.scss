@@ -1,0 +1,39 @@
+.work-experience {
+  background-color: rgba(160, 65, 48, 0.945);
+
+  .placeholder {
+    width: 90% !important;
+    height: 80% !important;
+    color: rgba(129, 123, 123, 0.445)!important;
+  }
+
+  .container {
+    width: 100%;
+    height: 100%;
+    padding: 10px 5px;
+    transition: all 0.3s ease-in-out;
+    transform: scale(0, 0);
+
+    .company {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+  }
+}
+
+.work-experience.focused {
+  transform: scale(1.7, 1.5);
+  transform-origin: top right;
+  opacity: 1;
+}
+
+.work-experience.focused {
+  .placeholder {
+    position: relative;
+    width: 20px !important;
+    height: 30px !important;
+    top: 1%;
+    left: 1%;
+  }
+}

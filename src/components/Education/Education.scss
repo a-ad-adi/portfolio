@@ -1,0 +1,34 @@
+.education {
+  background-color: rgb(146, 122, 92);
+  .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 5px;
+    text-align: center;
+    transform: scale(0, 0);
+
+    .info {
+      padding-top: 10%;
+      text-align: left;
+    }
+    .college {
+      padding-bottom: 10px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+    }
+  }
+}
+
+.education.focused {
+  transform: scale(1.7, 1.5);
+  transform-origin: top;
+
+  .placeholder {
+    width: 30px !important;
+    height: 30px !important;
+    transform: rotate(-20deg);
+  }
+}

@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCameraRetro } from "@fortawesome/free-solid-svg-icons";
 
-import "./Photography.css";
+import "./Photography.scss";
 
 export default function Photography({ className, onMouseEnter, onMouseLeave }) {
   return (
