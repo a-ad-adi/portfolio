@@ -4,7 +4,7 @@
   .placeholder {
     width: 90% !important;
     height: 80% !important;
-    color: rgba(129, 123, 123, 0.445)!important;
+    color: rgba(129, 123, 123, 0.445) !important;
   }
 
   .container {
@@ -17,7 +17,7 @@
     .company {
       display: flex;
       flex-direction: column;
-      justify-content: flex-start;
+      justify-content: flex-start;     
     }
   }
 }
@@ -29,11 +29,24 @@
 }
 
 .work-experience.focused {
+  display: inline-flex!important;
   .placeholder {
+    padding: 2px 4px;
     position: relative;
     width: 20px !important;
     height: 30px !important;
     top: 1%;
-    left: 1%;
+    left: 1%;    
   }
+
+  .name{
+    background-color: rgba(190, 190, 18, 0.164);
+    padding: 2px 4px 1px 2px;
+    display: inline-flex;        
+    width: auto;
+    border-radius: 1px;
+  }
+  .location{
+    font-size: 7px;
+  } 
 }

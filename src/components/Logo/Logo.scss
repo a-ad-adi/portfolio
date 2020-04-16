@@ -1,5 +1,8 @@
 .logo {
   background-color: rgb(172, 136, 54);
+  .photo {
+    transform: scale(0,0);
+  }
   .placeholder {
     transition: all 0.3s ease-in-out;
   }
@@ -28,8 +31,10 @@
 
     .header {
       margin-bottom: unset !important;
+      background-color: unset!important;
     }
     .photo {
+      transform: scale(1,1);
       margin: 10px;
       img {
         border-radius: 50%;

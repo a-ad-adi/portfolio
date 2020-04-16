@@ -19,7 +19,7 @@ export default function Projects({ className, onMouseEnter, onMouseLeave }) {
     >
       <FontAwesomeIcon className="placeholder" icon={faAd} />
       <div className="container">
-        <div className="photo"><img src="/profile.jpeg"/></div>        
+        <div className="photo"><img src="./profile.jpeg"/></div>        
         <div className="header">Aditya Tilyalkar</div>
         <div className="info">adityatilyalkar16@gmail.com</div>
 

@@ -25,6 +25,9 @@
       margin: auto;
       color: rgba(105, 98, 98, 0.514);
       transition: all 0.3s ease-in-out;
+      path {
+        text-shadow: 0px 0px 20px 4px black;
+      }
     }
 
     .container {
@@ -54,20 +57,40 @@
     border-radius: 8px;
     box-shadow: 0px 0px 30px 1px rgb(83, 80, 80);
     .placeholder {
+      position: relative;
       top: 1%;
       left: 1%;
+
+      path {
+        width: 10%;
+        height: 10%;
+      }
     }
     .container {
       transform: scale(1, 1);
+
+      .header {
+        background-color: rgba(138, 190, 18, 0.164);
+        padding: 2px 4px 1px 2px;
+        display: inline-flex;
+        width: auto;
+        border-radius: 1px;
+      }
     }
   }
 
   section.shaded {
     opacity: 0.2;
 
-    .photo{
+    .photo {
       display: none;
     }
+  }
+}
 
+ul {
+  padding-left: 10px;
+  li {
+    font-size: 8px;
   }
 }

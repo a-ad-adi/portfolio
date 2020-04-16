@@ -13,17 +13,34 @@ export default function Education({ className, onMouseEnter, onMouseLeave }) {
     >
       <FontAwesomeIcon className="placeholder" icon={faGraduationCap} />
       <div className="container">
-        <div className="header"> Education </div>
+        <div>
+          <div className="header"> Education </div>{" "}
+        </div>
+
         <div className="info">
           <div className="college">
-            <div> State University of New York </div>
-            <div> Master of Science </div>
-            <div> 3.8 </div>
+            <div>
+              <div className="name">
+                State University of New York at Binghamton
+              </div>
+            </div>
+
+            <div className="desc">
+              <div> Master of Science in Computer Science</div>
+              <div> 8/2017 - 5/2019 </div>
+              <div> GPA: 3.8 </div>
+            </div>
           </div>
+
           <div className="college">
-            <div> Uiversity of Pune </div>
-            <div> Bachelor of Engineering </div>
-            <div> 3.5 </div>
+            <div>
+              <div className="name"> Uiversity of Pune </div>
+            </div>
+            <div className="desc">
+              <div> Bachelor of Engineering in Computer Science</div>
+              <div> 8/2010 - 5/2014 </div>
+              <div> GPA: 3.5 </div>
+            </div>
           </div>
         </div>
       </div>
