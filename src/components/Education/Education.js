@@ -34,7 +34,7 @@ export default function Education({ className, onMouseEnter, onMouseLeave }) {
 
           <div className="college">
             <div>
-              <div className="name"> Uiversity of Pune </div>
+              <div className="name"> University of Pune </div>
             </div>
             <div className="desc">
               <div> Bachelor of Engineering in Computer Science</div>

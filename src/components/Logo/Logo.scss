@@ -1,6 +1,6 @@
 .logo {
   background-color: rgb(172, 136, 54);
-  .photo {
+  .profile-photo {
     transform: scale(0,0);
   }
   .placeholder {
@@ -33,7 +33,7 @@
       margin-bottom: unset !important;
       background-color: unset!important;
     }
-    .photo {
+    .profile-photo {
       transform: scale(1,1);
       margin: 10px;
       img {
