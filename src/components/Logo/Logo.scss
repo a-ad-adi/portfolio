@@ -1,7 +1,8 @@
 .logo {
   background-color: rgb(172, 136, 54);
   .profile-photo {
-    transform: scale(0,0);
+    display: none;
+    transform: scale(0, 0);
   }
   .placeholder {
     transition: all 0.3s ease-in-out;
@@ -31,16 +32,15 @@
 
     .header {
       margin-bottom: unset !important;
-      background-color: unset!important;
+      background-color: unset !important;
     }
-    .profile-photo {
-      transform: scale(1,1);
-      margin: 10px;
-      img {
-        border-radius: 50%;
-        height: 50px;
-        width: 50px;
-      }
+  }
+  .profile-photo {
+    display: block;
+    transform: scale(1, 1);
+    margin: 10px;
+    img {
+      border-radius: 50%;
     }
   }
   .contact {
@@ -63,4 +63,10 @@
       }
     }
   }
+}
+
+
+img {
+  height: 50px;
+  width: 50px;
 }

@@ -41,8 +41,9 @@ function App() {
     setSectionInFocus(null);
   };
 
+  console.log(sectionInFocus);
   return (
-    <div className="app">
+    <div className={`app ${!sectionInFocus ? "pulse" : ""}`}>
       <Logo
         className={logoClass}
         onMouseEnter={() => handleMouseEnter(LOGO)}

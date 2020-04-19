@@ -17,6 +17,7 @@
     transition: all 0.3s ease-in-out;
     transform: scale(1, 1);
     opacity: 1;
+    animation: unset;
 
     .placeholder {
       position: absolute !important;
@@ -56,6 +57,8 @@
     opacity: 1;
     border-radius: 8px;
     box-shadow: 0px 0px 30px 1px rgb(83, 80, 80);
+    animation: unset;
+
     .placeholder {
       position: relative;
       top: 1%;
@@ -88,9 +91,116 @@
   }
 }
 
+.app.pulse {
+  .education {
+    animation: pulse-education 3s infinite;
+  } 
+  .photography {
+    animation: pulse-photography 3s infinite 1s;
+  }
+  .projects {
+    animation: pulse-projects 3s infinite 2s;
+  }
+  .work-experience {
+    animation: pulse-work-exp 3s infinite 3s;
+  }
+  .logo {
+    animation: pulse-logo 3s infinite 4s;
+  }
+  .technology-stack {
+    animation: pulse-tech-stack 3s infinite 5s;
+  }
+}
+
 ul {
   padding-left: 10px;
   li {
     font-size: 8px;
   }
 }
+
+@keyframes pulse-logo {
+  0% {    
+    box-shadow: 0 0 0 0 rgba(158, 126, 52, 0.377);
+  }
+
+  68% {
+    z-index: 100;
+    box-shadow: 0 0 5px 5px rgba(158, 126, 52, 0.377);
+  }
+
+  100% {    
+    box-shadow: 0 0 0 0 rgba(158, 126, 52, 0.377);
+  }
+}
+@keyframes pulse-education {
+  0% {    
+    box-shadow: 0 0 0 0 rgba(146, 122, 92, 0.26);
+  }
+
+  68% {
+    z-index: 100;
+    box-shadow: 0 0 5px 5px rgba(146, 122, 92, 0.26);
+  }
+
+  100% {    
+    box-shadow: 0 0 0 0 rgba(146, 122, 92, 0.26);
+  }
+}
+@keyframes pulse-work-exp {
+  0% {    
+    box-shadow: 0 0 0 0 rgba(160, 65, 48, 0.522);
+  }
+
+  68% {
+    z-index: 100;
+    box-shadow: 0 0 5px 5px rgba(160, 65, 48, 0.522);
+  }
+
+  100% {    
+    box-shadow: 0 0 0 0 rgba(160, 65, 48, 0.522);
+  }
+}
+@keyframes pulse-projects {
+  0% {    
+    box-shadow: 0 0 0 0 rgba(48, 90, 90, 0.5);
+  }
+
+  68% {
+    z-index: 100;
+    box-shadow: 0 0 5px 5px rgba(48, 90, 90, 0.5);
+  }
+
+  100% {    
+    box-shadow: 0 0 0 0 rgba(48, 90, 90, 0.5);
+  }
+}
+@keyframes pulse-tech-stack {
+  0% {    
+    box-shadow: 0 0 0 0 rgba(64, 100, 100, 0.479);
+  }
+
+  68% {
+    z-index: 100;
+    box-shadow: 0 0 5px 5px rgba(64, 100, 100, 0.479);
+  }
+
+  100% {    
+    box-shadow: 0 0 0 0 rgba(64, 100, 100, 0.479);
+  }
+}
+@keyframes pulse-photography {
+  0% {    
+    box-shadow: 0 0 0 0 rgba(75, 82, 82, 0.267);
+  }
+
+  68% {
+    z-index: 100;
+    box-shadow: 0 0 5px 5px rgba(75, 82, 82, 0.267);
+  }
+
+  100% {    
+    box-shadow: 0 0 0 0 rgba(75, 82, 82, 0.267);
+  }
+}
+

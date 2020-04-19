@@ -16,9 +16,13 @@
     transform: rotate(720deg);
   }
   .container {
-    .gallaey {
+    .gallary {
       position: relative;
       display: flex;
+      flex-wrap: wrap;
+      .photo{
+        // width: 33%;
+      }
     }
   }
 }
