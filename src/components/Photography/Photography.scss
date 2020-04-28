@@ -16,13 +16,20 @@
     transform: rotate(720deg);
   }
   .container {
+    position: relative;
+    overflow: auto;
+    .header {
+      top:1%;
+      background-color: rgba(207, 200, 200, 0.055)!important;
+      padding: 3px!important;
+      border-radius: 3px;
+    }
+
     .gallary {
       position: relative;
       display: flex;
       flex-wrap: wrap;
-      .photo{
-        // width: 33%;
-      }
+      overflow: auto!important;
     }
   }
 }

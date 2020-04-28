@@ -20,7 +20,7 @@ const images = [
   "13",
   "14",
   "15",
-  "16"
+  "16",
 ];
 
 export default function Photography({ className, onMouseEnter, onMouseLeave }) {
@@ -32,6 +32,9 @@ export default function Photography({ className, onMouseEnter, onMouseLeave }) {
     >
       <FontAwesomeIcon className="placeholder" icon={faCameraRetro} />
       <div className="container">
+        <div>
+          <div className="header"> Just something else to share.. </div>
+        </div>
         <div className="gallary">
           {images.map((img) => (
             <img className="photo" src={`./${img}.jpg`} alt="img" />

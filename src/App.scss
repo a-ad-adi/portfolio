@@ -94,7 +94,7 @@
 .app.pulse {
   .education {
     animation: pulse-education 3s infinite;
-  } 
+  }
   .photography {
     animation: pulse-photography 3s infinite 1s;
   }
@@ -120,7 +120,7 @@ ul {
 }
 
 @keyframes pulse-logo {
-  0% {    
+  0% {
     box-shadow: 0 0 0 0 rgba(158, 126, 52, 0.377);
   }
 
@@ -129,12 +129,12 @@ ul {
     box-shadow: 0 0 5px 5px rgba(158, 126, 52, 0.377);
   }
 
-  100% {    
+  100% {
     box-shadow: 0 0 0 0 rgba(158, 126, 52, 0.377);
   }
 }
 @keyframes pulse-education {
-  0% {    
+  0% {
     box-shadow: 0 0 0 0 rgba(146, 122, 92, 0.26);
   }
 
@@ -143,12 +143,12 @@ ul {
     box-shadow: 0 0 5px 5px rgba(146, 122, 92, 0.26);
   }
 
-  100% {    
+  100% {
     box-shadow: 0 0 0 0 rgba(146, 122, 92, 0.26);
   }
 }
 @keyframes pulse-work-exp {
-  0% {    
+  0% {
     box-shadow: 0 0 0 0 rgba(160, 65, 48, 0.522);
   }
 
@@ -157,12 +157,12 @@ ul {
     box-shadow: 0 0 5px 5px rgba(160, 65, 48, 0.522);
   }
 
-  100% {    
+  100% {
     box-shadow: 0 0 0 0 rgba(160, 65, 48, 0.522);
   }
 }
 @keyframes pulse-projects {
-  0% {    
+  0% {
     box-shadow: 0 0 0 0 rgba(48, 90, 90, 0.5);
   }
 
@@ -171,12 +171,12 @@ ul {
     box-shadow: 0 0 5px 5px rgba(48, 90, 90, 0.5);
   }
 
-  100% {    
+  100% {
     box-shadow: 0 0 0 0 rgba(48, 90, 90, 0.5);
   }
 }
 @keyframes pulse-tech-stack {
-  0% {    
+  0% {
     box-shadow: 0 0 0 0 rgba(64, 100, 100, 0.479);
   }
 
@@ -185,12 +185,12 @@ ul {
     box-shadow: 0 0 5px 5px rgba(64, 100, 100, 0.479);
   }
 
-  100% {    
+  100% {
     box-shadow: 0 0 0 0 rgba(64, 100, 100, 0.479);
   }
 }
 @keyframes pulse-photography {
-  0% {    
+  0% {
     box-shadow: 0 0 0 0 rgba(75, 82, 82, 0.267);
   }
 
@@ -199,8 +199,7 @@ ul {
     box-shadow: 0 0 5px 5px rgba(75, 82, 82, 0.267);
   }
 
-  100% {    
+  100% {
     box-shadow: 0 0 0 0 rgba(75, 82, 82, 0.267);
   }
 }
-
